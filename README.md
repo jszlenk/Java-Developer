@@ -18,8 +18,8 @@ Intensive course for beginners who wish to become an advanced software developer
 6.  Unit and integration testing
     - JUnit and Mockito
     - Selenium WebDriver and XPath
-7. Exceptions in Java
-8. JVM performance monitoring
+7. JVM performance monitoring
+8. Exceptions in Java
 9. Hibernate
 10. JDBC
 11. Spring Framework
