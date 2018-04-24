@@ -1,0 +1,15 @@
+group 'com.kodilla'
+version '0.0.1-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile('junit:junit:4.12')
+    testCompile('org.mockito:mockito-all:1.10.19')
+}

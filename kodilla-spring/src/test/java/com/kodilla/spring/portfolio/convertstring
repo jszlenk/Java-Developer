@@ -1,0 +1,9 @@
+
+String result1 = board.getDoneList().getTasks().stream().collect(Collectors.joining());
+String result2 = board.getInProgressList().getTasks().stream().collect(Collectors.joining());
+String result3 = board.getToDoList().getTasks().stream().collect(Collectors.joining());
+OR
+String result = String.join(", ", board.getDoneList().getTasks());
+OR
+String s = list.stream().map(e -> e.toString()).reduce("", String::concat);
+String s = list.stream().map(Object::toString).collect(Collectors.joining(","));
